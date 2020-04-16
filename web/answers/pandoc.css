@@ -1,0 +1,125 @@
+/*
+ * I add this to html files generated with pandoc.
+ */
+
+
+img {
+  max-width: 100%;
+}
+
+
+
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #eee;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
+
+figure {
+  display: block;
+  text-align: center;
+  margin: 1em 0;
+}
+
+figure img {
+  border: none;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: 0.8em;
+  font-style: italic;
+  margin: 0 0 .8em;
+
+  text-align: right; color: grey;
+}
+
+figcaption a {
+  color: grey;
+}
+
+code {
+  color: #444;
+  background-color: #dddddd61;
+}
+
+mark {
+  padding-right: 0.2em;
+  padding-left: 0.2em;
+}
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+
+
+.mnemo {
+  margin: 2em;
+  padding: 2em;
+  border: 3px dashed #1C6EA4;
+  border-radius: 9px;
+}
+.mnemo:before {
+  content: "🧑‍🎓💡💾♻️  ";
+    position: relative;
+    top: -3em;
+    background-color: white;
+    padding: 1em;
+}
+
+.stabilo {
+background: url(https://andyhooke.co.uk/wp-content/uploads/2018/02/yellow-brushstroke.png);
+background-repeat: no-repeat;
+background-size: 100% 95%;
+padding: 8px 0;  
+}
+
+
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media print {
+
+
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+}

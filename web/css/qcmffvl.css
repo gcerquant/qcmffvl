@@ -219,6 +219,13 @@
     .help-answer {
         color: #31708f;
     }
+    .no-explanation {
+        font-size: smaller;
+        text-align: center;
+        color: gray;
+    }
+
+    
     .panel-warning .panel-heading {
         background-color: #FFE5C1;
         color:#AA6C00;

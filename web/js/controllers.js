@@ -532,6 +532,11 @@ angular.module('qcmffvl.controllers', [])
     }
 
 
+    $scope.questionHasExplanation = function(question) {
+return ["A10V", "A11V", "A21V", "A22V", "A3V", "A42V", "A58V", "A78V", "A80V", "A81V", "A82V", "A87V", "A88V", "A8V", "A9V", "L3V", "L5V", "N27V", "N30V", "N33V", "N38V", "N61V", "N62V", "N63V", "S106V", "S107V", "S108V", "S109V", "S111V", "S112V", "S113V", "S114V", "S115V", "S19V", "S46V", "S96V", "U24V", "U39V", "U90V"].includes(question.code);
+    }
+
+
     $scope.successQuestion = function(question) {
         if ($scope.main.exam.papier || !$scope.main.checkAnswers || $scope.isHelpQuestion(question))
             return false;
@@ -581,15 +586,6 @@ angular.module('qcmffvl.controllers', [])
         }
     }
 
-    $scope.helpQuestionToggle = function(q) {
-        if ($scope.navCollapsed && !$scope.main.exam.papier) {
-            if ($scope.main.helpQuestion == q.code) {
-                $scope.main.helpQuestion = "";
-            } else {
-                $scope.main.helpQuestion = q.code;
-            }
-        }
-    }
 
     $scope.isHelpQuestion = function(q) {
         if (q && !$scope.main.exam.papier) {
