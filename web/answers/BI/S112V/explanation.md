@@ -1,5 +1,5 @@
-[comment]: # (S115V)
-[comment]: # (Comment peut-on connaitre l’activité du RTBA ?)
+[comment]: # (S112V)
+[comment]: # (Quel est le nom d’un réseau de zones militaires de basse altitude particulièrement dangereux ? ZIT-6 | RTBA6 | CTR)
 
 
 
@@ -21,3 +21,5 @@ Une **ZIT** est une Zone Interdite Temporaire. Par exemple autour du tour de Fra
 
 Une **CTR** = (de l'anglais *control zone*, ou *control traffic region*)  
 C'est une zone controlée autour d'un aérodrome pour protéger les vols à l'arrivée ou au départ.  
+
+

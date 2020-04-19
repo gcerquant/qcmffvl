@@ -25,4 +25,6 @@ Les **altitudes sont souvent exprimées en pieds** (10 000 pieds = 3 048 mètres
 
 ###  Vols internationaux
 
-Il n'y a pas de priorité aux vols internationaux.
+Il n'y a pas de priorité aux vols internationaux.  
+
+Les priorités en vols sont établies par types d'aéronefs (montgolfière, dirigeable, planeur ultra léger, patrouille et remorqueur, avion et hélico) et par les règles de circulations (qui est à droite, qui est déjà dans le thermique...)

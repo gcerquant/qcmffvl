@@ -16,6 +16,8 @@ D'ailleurs, comment on pourrait connaître le niveau du pilote en face ?
 
 ### Une priorité se donne, elle ne se prend pas
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kw-8BzhFhEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Dans la question posée, vous avez la priorité. Oui, mais.  
 Mon prof d'auto-école m'avait répondu un jour où je n'avais pas eu envie de laisser passer la voiture qui voulait me griller une priorité à droite :   
 **oui... mais tu ne veux pas mourir prioritaire !**

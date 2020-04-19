@@ -17,8 +17,9 @@ Citez un schéma possible, d’organisation des espaces, autour d’un aéroport
 
 ### 🪂 Dans quelles classes parapenter ?
 
-Les parapentes, considérés comme des planeurs ultralégers (PUL) peuvent évoluer uniquement en espace de classe E (controlé) et G (non controlé).
+Les parapentes, considérés comme des planeurs ultralégers (PUL) peuvent évoluer uniquement en espace de classe E (contrôlé) et G (non contrôlé).
 
+![](espace-controlle.jpg)
 
 ## Types de zone
 
