@@ -51,7 +51,7 @@ Même si la vallée ne rétrécit pas en largeur, elle peut rétrécir en hauteu
 <br>
 <br><br><br>
 
-# 🧠👩🏻‍🔬🔬🌡🧪📐 La minute science : “explique moi l'effet Venturi”
+# 🧠👩🏻‍🔬🔬🌡🧪📐 La minute science : “explique-moi l'effet Venturi”
 
 ### Démonstration du phénomène
 
@@ -91,7 +91,7 @@ Pour éviter les embouteillages à la jonction sans comprimer nos passagers, il 
 
 
 À noter : 
-On parle d'effet Venturi, mais c'est un abus de langage. Cette accélération est du au principe de conservation de la masse.  
+On parle d'effet Venturi, mais c'est un abus de langage. Cette accélération est due au principe de conservation de la masse.  
 L'effet Venturi est un phénomène de dépression lié à l'accélération.
 
 

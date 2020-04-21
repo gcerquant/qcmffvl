@@ -3,7 +3,7 @@
 
 
 
-## RTBA = Réseau très basse altitude
+## RTBA = Réseau Très Basse Altitude
 
 
 Il existe en France une série de zones aériennes reliées entres elles.

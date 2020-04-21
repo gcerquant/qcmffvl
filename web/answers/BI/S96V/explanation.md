@@ -7,6 +7,8 @@ Franchement, il est bien connu que le niveau d'un pilote est mieux évalué par 
 
 Comme je sais pas, par exemple, le **[passeport de vol libre](https://efvl.ffvl.fr/mesurer_progression)** : 
 
+<center>![](3_brevets.png)</center>
+
 ## Cycle 1
 
 [comment]: # (fichiers via https://efvl.ffvl.fr/sites/efvl.fr/files/22-23%20niveau-marron.png )

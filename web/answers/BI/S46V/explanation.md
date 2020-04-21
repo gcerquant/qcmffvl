@@ -19,7 +19,7 @@ donc un **parapente est un PUL**.
 <center>
 ![](flyer_pull_moche_2019.jpg)
 <figcaption>
-À ne pas confondre avec un Pull, même si vous volez dans le Tarn et son célèbre [championnat du monde de Pull Moche](https://www.albi-vintage.fr/pull-moche).</figcaption>
+À ne pas confondre avec un PULL, même si vous volez dans le Tarn et son célèbre <u>[championnat du monde de Pull Moche](https://www.albi-vintage.fr/pull-moche)</u>.</figcaption>
 </center>
 
 Et

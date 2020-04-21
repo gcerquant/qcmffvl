@@ -4,13 +4,18 @@
 
 ![Suspentes](http://nervures.com/images/sav_suspente.jpg)
 
-Les suspentes sont en deux parties, une **ame** (pour la résistance) et une **gaine** (pour protéger l'ame) :
-
-* L'ame est en **fibres de kevlar** ou **en fils polyéthylènes tressés**.  
-* La gaine est en **polyester**.
+Les suspentes sont en deux parties, une **âme** (le centre de la suspente) et une **gaine** (autour de l'âme).
 
 
-Un **noeud** sur une suspente peut casser les fils de l'ame et en **diminuer la résistance jusqu'à 50%**.
 
 
-En plus de la visite annuelle de contrôle, pensez à les controller visuellement régulièrement.
+
+* L'âme est en **fibres de kevlar** ou **en fils polyéthylènes tressés**.  
+Elle est extrêmement résistante en tension.  
+* La gaine est en **polyester**.  
+Elle protège l'âme des accrocs et frictions.
+
+Un **nœud** sur une suspente peut casser les fils de l'âme et en **diminuer la résistance jusqu'à 50%**.
+
+
+En plus de la visite annuelle de contrôle, pensez à les contrôler visuellement régulièrement.

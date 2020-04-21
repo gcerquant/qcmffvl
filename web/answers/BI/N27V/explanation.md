@@ -17,6 +17,8 @@ Il faut donc tenir son aile à l'abri du :
 <br><br>
 <center>![](aile-depliee-besoin-assistance.png)</center>
 <br><br><br>
+
+
 ### Entretien du parapentiste
 
 Il est également conseillé de ne pas laisser cuire trop longtemps le pilote.
@@ -29,7 +31,7 @@ Il est également conseillé de ne pas laisser cuire trop longtemps le pilote.
 ### Utilisation
 
 Un autre facteur de vieillissement est d'appliquer les techniques de descente rapide.  
-Cela va entraîner des charges supérieurs aux conditions d'utilisation prévue.  
+Cela va entraîner des charges supérieures aux conditions d'utilisation prévue.  
 
 Les turbulences ne sont **pas** un facteur de vieillissement prématuré.
 

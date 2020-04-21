@@ -31,7 +31,7 @@ Vous pouvez aussi obtenir les informations au numéro vert : 0800.24.54.66
 ✅ Sur une carte aéronautique, on peut voir une zone RTBA, mais **pas son activité**.
 
 
-## Suis-je concerné ?
+## Je ne suis que parapentiste, suis-je concerné ?
 
 Oui.
 <br>
@@ -44,4 +44,4 @@ Par exemple, pour les Toulousains 😉, le site de Gensac-sur-Garonne est sous l
 ![](legende-rtba.jpg)
 
 
-La zone R 46 F3 commence 800 pieds (~240 mètres) au dessus du sol, jusqu'à 3300 pieds (~1 000 mètres).
+La zone R 46 F3 commence 800 pieds (~240 mètres) au-dessus du sol, jusqu'à 3300 pieds (~1 000 mètres).

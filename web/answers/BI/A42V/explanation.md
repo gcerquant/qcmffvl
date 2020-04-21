@@ -37,7 +37,7 @@ Et…
 ## Tout gaz a une masse
 
 *1 litre d'air* a une masse d'environ *1,23 gramme* (pour un air sec, à 15℃, au niveau de la mer).  
-Ca ne vous parait pas beaucoup ?  
+Ça ne vous parait pas beaucoup ?  
 
 <div align="right">
 ### *“ 1 m&sup3; d'air = 1,23kg*
@@ -51,7 +51,7 @@ Le premier qui persiste à penser que l'air n'a pas de poids est invité à mon 
 
 ## Attention chaud devaa*aant* *!*
 
-Prenons notre même cube d'air, et posons le —délicatement— dans un champ. Mais pas n'importe quel champ s'il vous plaît.   
+Prenons notre même cube d'air, et posons-le —délicatement— dans un champ. Mais pas n'importe quel champ s'il vous plaît.   
 
 Un joli champ, assez sec, et à l'abri du vent.  
 Pourquoi ? À l'abri du vent pour ne pas courir après notre cube d'air. Assez sec pour qu'il puisse chauffer facilement.  
@@ -82,13 +82,13 @@ Vrai pour plein d'autres sujets, les masses d'air ne sont pas trop d'accord avec
 ✅ En météo, **deux masses d'air <u>ne se mélangent pas</u>** (si l'on considère une échelle de temps "météorologique").
 
 Et les raisons sont plutôt complexes (mauvaise conduction d'énergie, vitesse de déplacement, densité, etc). Voir par exemple [ici](https://physics.stackexchange.com/questions/7317/why-dont-different-air-masses-mix-immediately).  
-Soyons honnête, je ne sais pas entièrement expliquer pourquoi. Si tu es un expert sur le sujet, s'il te plaît **[écris moi](mailto:gcerquant@gmail.com?Subject=Why Air masses do Not mix)** 🙏, j'ai plein de questions.
+Soyons honnête, je ne sais pas entièrement expliquer pourquoi. Si tu es un expert sur le sujet, s'il te plaît **[écris-moi](mailto:gcerquant@gmail.com?Subject=Why Air masses do Not mix)** 🙏, j'ai plein de questions.
 
 
 ## 🤨 *Pourquoi ça m'intéresse ?*
 Les masses d'air ne se mélangent pas. Soit.  
 
-Ce qui est intéressant, c'est les conséquences de cet absence de mélange. 
+Ce qui est intéressant, c'est les conséquences de cette absence de mélange. 
 
 La zone de séparation entre deux masses d'air s'appelle un front.  
 Son vocabulaire militaire laisse imaginer que c'est là que des phénomènes météos intenses ont lieu.  
@@ -96,7 +96,7 @@ Son vocabulaire militaire laisse imaginer que c'est là que des phénomènes mé
 Par exemple :
 
 ### Fronts 
-* quand une masse d'air chaude se déplace à l'endroit d'une masse d'air plus froide, en raison de sa densité plus faible, la masse d'air chaude va “grimper” au dessus de la masse d'air froide. En s'élevant en altitude, l'air chaud va se refroidir, jusqu'à condenser. Et donc, des nuages apparaître.  
+* quand une masse d'air chaude se déplace à l'endroit d'une masse d'air plus froide, en raison de sa densité plus faible, la masse d'air chaude va “grimper” au-dessus de la masse d'air froide. En s'élevant en altitude, l'air chaud va se refroidir, jusqu'à condenser. Et donc, des nuages apparaître.  
 ![Front chaud](front-chaud.png) [via [Pba](http://www.pba.asso.fr/index.php?option=com_content&view=article&id=6:instruction&catid=2:club&Itemid=12)]
 * Le même phénomène existe avec une masse d'air froide. On parle de **front froid**. Le phénomène sera plus rapide et plus violent. Il apporte des averses. 
 

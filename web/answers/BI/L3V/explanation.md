@@ -10,13 +10,14 @@ Nos parapentes et parachutes de secours sont des petits êtres tout sensibles et
 ### Stockage de l'aile
 Il faut donc tenir son aile à l'abri du :
 
-* **rayonnement solaire** ➡️ on la laisse pas cuire 2h étalée à l'attero
-* l'**humidité** et la **chaleur** ➡️ on évite de la stocker à la cave, ou la laisser dans le coffre en plein soleil 🚐 ☀️ 🌡 pendant la sieste avant de retourner voler
+* **rayonnement solaire** ➡️ on ne la laisse pas cuire 2h étalée à l'atterro
+* l'**humidité** et la **chaleur** ➡️ on évite de la stocker à la cave, ou de la laisser dans le coffre en plein soleil 🚐 ☀️ 🌡 pendant la sieste avant de retourner voler
 * les liquides divers, qui vont affecter la porosité et la résistance
 
 <br><br>
 <center>![](aile-depliee-besoin-assistance.png)</center>
 <br><br><br>
+
 ### Entretien du parapentiste
 
 Il est également conseillé de ne pas laisser cuire trop longtemps le pilote.
@@ -29,7 +30,7 @@ Il est également conseillé de ne pas laisser cuire trop longtemps le pilote.
 ### Utilisation
 
 Un autre facteur de vieillissement est d'appliquer les techniques de descente rapide.  
-Cela va entraîner des charges supérieurs aux conditions d'utilisation prévue.  
+Cela va entraîner des charges supérieures aux conditions d'utilisation prévue.  
 
 Les turbulences ne sont **pas** un facteur de vieillissement prématuré.
 

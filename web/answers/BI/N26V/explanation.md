@@ -17,6 +17,7 @@ Il faut donc tenir son aile à l'abri du :
 <br><br>
 <center>![](aile-depliee-besoin-assistance.png)</center>
 <br><br><br>
+
 ### Entretien du parapentiste
 
 Il est également conseillé de ne pas laisser cuire trop longtemps le pilote.

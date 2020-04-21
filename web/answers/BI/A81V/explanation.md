@@ -32,7 +32,7 @@ Si ce même parapentiste est sous le vent d'un arbre, le vent va d'abord rencont
 Attention : votre sens de déplacement n'a pas d'importance.  
 Ce qui compte, c'est le **sens du vent**.
 
-De la même manière que le nord reste au même endroit quand vous tournez sur vous même, vous restez sous le vent des mêmes objets quelle que soit votre direction.
+De la même manière que le nord reste au même endroit quand vous tournez sur vous-même, vous restez sous le vent des mêmes objets quelle que soit votre direction.
 
 
 ⚠️ Même si le parapentiste C vole dans le sens inverse de B, ils sont tous les deux *sous le vent* de l'arbre et *au vent* de la montagne.
@@ -58,9 +58,21 @@ Un rideau d'arbres face au vent provoque des turbulences :
 Sous le vent d'un obstacle, il faut s'attendre à se faire secouer. Ou mieux, ne pas y aller.  
 
 ## Choix atterro
-Dans un champ avec une haie d'arbre, on posera donc **au vent de cette rangée**, ou loin sous le vent.
+Dans un champ avec une haie d'arbres, on posera donc **au vent de cette rangée**, ou loin sous le vent.
 
 
 ![](auvent-souslevent.004.jpeg)
 
 Si [José](https://jokair-parapente.com/) —mon tout premier prof de parapente 😉👋— n'avait pas fait disparaître la haie que j'ai replanté en copiant 4 Emoji arbres, se poser à Rustrel par vent d'est serait compliqué.
+
+
+## Pour que vous reteniez !
+
+
+<link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Schoolbell&display=swap" rel="stylesheet">
+<div class="mnemo">
+	<div class="stabilo handwriting" style="text-align: center; font-size: x-large;"><b>💩 sous le vent, ça pue</b>
+	</div><br>
+	<div class="handwriting" style="font-size: large;">Sous le vent d'un obstacle, il y a des <b>turbulences</b>.<br>Sous le vent de l'atterro, je vais me faire <b>contrer</b> et risque de ne pas pouvoir le rejoindre.<br>
+<img src="./auvent-souslevent-smell.jpeg"><br><br>Image découverte en lisant <a href="https://parapente360.com/">360 Parapente</a>, de Laurent Van Hille (porteur du projet et gérant de l'école <a href="https://www.leschoucas.com/">Les Choucas</a>.</div>
+</div>

@@ -7,7 +7,7 @@ angular.module('qcmffvl.controllers', [])
 .controller('MainCtrl', function($scope, API, $location, $timeout, $http, $filter, $window, $templateCache, $localStorage, dialogs, deviceDetector) {
 
     $scope.questionHasExplanation = function(question) {
-return ["A10V", "A11V", "A21V", "A22V", "A3V", "A42V", "A58V", "A78V", "A80V", "A81V", "A82V", "A83V", "A87V", "A88V", "A8V", "A9V", "L3V", "L5V", "N26V", "N27V", "N30V", "N33V", "N38V", "N42V", "N51V", "N61V", "N62V", "N63V", "S106V", "S107V", "S108V", "S109V", "S110V", "S111V", "S112V", "S113V", "S114V", "S115V", "S19V", "S25V", "S46V", "S91V", "S92V", "S96V", "U24V", "U39V", "U90V"].includes(question.code);
+return ["A10V", "A11V", "A21V", "A22V", "A3V", "A42V", "A58V", "A78V", "A80V", "A81V", "A82V", "A83V", "A87V", "A88V", "A8V", "A9V", "L3V", "L5V", "N26V", "N27V", "N30V", "N33V", "N38V", "N42V", "N51V", "N61V", "N62V", "N63V", "S106V", "S107V", "S108V", "S109V", "S110V", "S111V", "S112V", "S113V", "S114V", "S115V", "S19V", "S25V", "S46V", "S5V", "S91V", "S92V", "S93V", "S94V", "S95V", "S96V", "S98V", "U24V", "U2V", "U39V", "U90V"].includes(question.code);
     }
 
 

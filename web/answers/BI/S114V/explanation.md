@@ -1,7 +1,7 @@
 [comment]: # (S114V)
 [comment]: # (Comment est annoncé un exercice militaire ?)
 
-Les seules sources fiables pour connaitre un exercice militaire sont les **NOTAMS** (*notice to airmen*) ou les **amendements à la publication d'information aéronautique** (*SUP AIP*) sur le site du SIA.
+Les seules sources fiables pour connaitre un exercice militaire sont les **NOTAM** (*notice to airmen*) ou les **amendements à la publication d'information aéronautique** (*SUP AIP*) sur le site du SIA.
 
 Les newsletters, lettres, panneaux d'affichage, Facebook, un texto de votre belle-mère[1] ne sont pas valides (même si ils peuvent sensibiliser).
 
@@ -21,7 +21,7 @@ AIP signifie Publication d'Information Aéronautique (en anglais Aeronautical In
 La version française est [accessible ici](https://www.sia.aviation-civile.gouv.fr/documents/htmlshow?f=dvd/eAIP_27_FEB_2020/FRANCE/home.html).
 
 Ces règles évoluent peu.
-En cas de changements temporaire, il y a deux possibilités :
+En cas de changements temporaires, il y a deux possibilités :
 
  - la publication d'un supplément à l'AIP
  - ou la publication d'un NOTAM.
@@ -31,14 +31,14 @@ En cas de changements temporaire, il y a deux possibilités :
 
 Un NOTAM (de l’anglais notice to airmen) est un message publié pour informer les pilotes.
 
-Les NOTAMs peuvent concerner un obstacle au sol (par exemple une grue), une piste d'aéroport fermée, une zone interdite de vol (déplacement présidentiel ou tour de France), de dangers ponctuels (éruption volcanique), etc.
-
-Même si dans les zones dans lequel nous évoluons en parapente nous sommes rarement concernés, nous devons les consulter avant de voler.
-
+Les NOTAM peuvent concerner un obstacle au sol (par exemple une grue), une piste d'aéroport fermée, une zone interdite de vol (déplacement présidentiel ou tour de France), un dangers ponctuel (éruption volcanique), etc.
 
 Les NOTAM sont consultables sur le [site du SIA](http://notamweb.aviation-civile.gouv.fr).
 
-Son format est malheureusement assez archaique et peu lisible.
+
+Même si dans les zones dans lesquelles nous évoluons en parapente nous sommes rarement concernés, nous devons les consulter avant de voler.
+
+Son format est malheureusement assez archaïque et peu lisible ; ce n'est pas une excuse valable pour ne pas les comprendre et les consulter.
 
 
 
@@ -55,4 +55,4 @@ Un NOTAM peut parfois renvoyer à un SUP AIP.
 
 [1]: /
 <small>
-[ 1 ] : Même si un texto de rappel de sa part pour ne pas oublier le roti dominical peut vous éviter un exercice militaire conjugual. À vous de voir alors si sacrifier une session parapente est stratégique.</small>
+[ 1 ] : Même si un texto de rappel de sa part pour ne pas oublier le rôti dominical peut vous éviter un exercice militaire conjugual. À vous de voir alors si sacrifier une session parapente est stratégique.</small>

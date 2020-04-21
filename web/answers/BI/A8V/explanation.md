@@ -4,7 +4,7 @@ cirro* sont des nuages :
 
 -->
 
-Les nuages sont nommés en fonction de leur **étage** et leur **type**.
+Les nuages sont nommés en fonction de leur **étage** et de leur **type**.
 
 ### Étages (de bas en haut) : *∅, alto, cirro*
 * Les nuages de l'étage **inférieur** ne sont **<u>pas préfixés</u>**.  

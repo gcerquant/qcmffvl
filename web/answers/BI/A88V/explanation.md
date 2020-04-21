@@ -15,8 +15,12 @@ Une boucle de retour s'établit en altitude.
 L'eau de la mer absorbe une partie de la chaleur du rayonnement solaire.  
 Donc en journée, la **terre chauffe plus que la mer**.  
 
+
 La terre réchauffe l'air à son contact (conduction), qui monte (convection).  
+Là où l'air était avant de monter, il y a maintenant une pression plus faible. Et la nature a horreur du vide.
+
 L'air froid venu de la mer vient le remplacer. C'est la **brise de mer**.
+
 
 En montant en altitude, l'air chaud se refroidit par dilatation, et retourne en mer.
 
