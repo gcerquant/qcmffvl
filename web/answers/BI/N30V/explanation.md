@@ -3,6 +3,7 @@
 
 
 ![Suspentes](http://nervures.com/images/sav_suspente.jpg)
+<figcaption>Photo : <a href="http://nervures.com/">Nervures</a> </figcaption>
 
 Les suspentes sont en deux parties, une **âme** (le centre de la suspente) et une **gaine** (autour de l'âme).
 

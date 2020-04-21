@@ -7,6 +7,8 @@ Pour tester une aile, un pilote provoque un incident (fermeture, décrochage...)
 La norme EN note la **capacité de l'aile à se sortir de cette situation anormale, sans intervention du pilote**.  
 
 ![](https://www.pilotage-parapente.com/wp-content/uploads/2017/05/le-vrac-du-22-avril-5-600x338.jpg)
+<figcaption> Photo via <a href="https://www.pilotage-parapente.com">Pilotage Parapente</a></figcaption>
+
 
 ### Quelles catégories d'ailes ? (A, B, C, D)
 
