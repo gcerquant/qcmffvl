@@ -74,7 +74,7 @@ Find.find(__dir__) do |a_file|
 	current_question_number =  File.basename(a_folder) # .split(File::SEPARATOR).last
 
 
-	if ! current_question_number.match? /^[ALNSU][0-9]+V$/
+	if ! current_question_number.match? /^[AELNSU][0-9]+V$/
 		puts "skipping #{current_question_number} (invalid format for question ID)" unless ["answers", "_template", "_template_link", "BI", "BP", "BPC" ].include?(current_question_number)
 		next
 #		puts "skipping Folder #{current_folder} not ok with convention"

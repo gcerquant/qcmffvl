@@ -27,8 +27,8 @@ Même si d'après le [code du sport](https://www.legifrance.gouv.fr/affichCode.d
 
 Un membre (par exemple un club) peut donc voter à l'[assemblé générale](https://federation.ffvl.fr/pages/assembl-e-g-n-rale), alors qu'un adhérent licencié (par exemple toi) peut suggérer à son club comment voter mais ne peut pas voter en direct.
 
-
-
+<center>Voilà. 🤓 </center>
+<br>
 
 <hr>
 Les [missions de la FFVL](https://federation.ffvl.fr/pages/nos-missions) sont multiples :
@@ -39,5 +39,3 @@ Les [missions de la FFVL](https://federation.ffvl.fr/pages/nos-missions) sont mu
  - étudier les règlements et programmes sportifs ;  
  - soutenir, coordonner et contrôler l'action des associations ;  
  - représenter le vol libre français dans le monde.  
-
-<center>Voilà. 🤓 </center>

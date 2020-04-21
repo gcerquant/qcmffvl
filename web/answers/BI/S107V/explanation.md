@@ -3,7 +3,7 @@
 
 Et… vivent les acronymes 😃
 
-###PUL
+### PUL
 **PUL** = Planeur Ultra-Léger : 
 
 > Un PUL est défini ([source](https://www.legifrance.gouv.fr/affichTexteArticle.do;jsessionid=508625229E5B432ED062DA8891F899FD.tplgfr38s_2?idArticle=LEGIARTI000034768623&cidTexte=JORFTEXT000034631299&categorieLien=id&dateTexte=)) comme un aéronef apte à **décoller ou atterrir aisément en utilisant l'énergie musculaire du pilote** et l'énergie potentielle.

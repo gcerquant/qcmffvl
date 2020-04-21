@@ -5,7 +5,7 @@ Le niveau du pilote est évalué :
 
 Franchement, il est bien connu que le niveau d'un pilote est mieux évalué par ses amis<sup>*</sup> —de préférence au bar après plusieurs tournées 🍻— plutôt que par un moniteur diplômé qui va s'appuyer sur un support pédagogique adapté.  
 
-Comme je sais pas, par exemple, le **[passeport de vol libre](https://efvl.ffvl.fr/mesurer_progression)** : 
+Support tel que, je sais pas, par exemple, le **[passeport de vol libre](https://efvl.ffvl.fr/mesurer_progression)** : 
 
 <center>![](3_brevets.png)</center>
 
