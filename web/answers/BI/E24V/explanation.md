@@ -6,7 +6,7 @@ X corde
 -->
 
 
-# Axes de pivot d'une aile
+# 3 axes de pivot d'une aile
 
 En aéronautique, on nomme les rotations autour des 3 axes **tangage**, **roulis**, et **lacet**.
 
@@ -62,7 +62,9 @@ Un bateau qui est frappé **de côté** par la houle va subir du roulis.
 
 ## Roulis et Tangage sont sur un radeau…
 
-_“— … attends, rappelle moi, c'est qui déjà Roulis et c'est qui Tangage ?”_
+_— “… attends, rappelle moi, c'est qui déjà Roulis et c'est qui Tangage ?”_  <br>
+_— “Roulis, il roule, et Tangage il tan…  
+Ok. Roulis, il roule. Comme dans ta voiture : si tu mets des coups de volant rapides, tu vas à gauche puis à droite”_
 
 ![](pitch-or-roll.jpeg) 
 
@@ -113,103 +115,105 @@ label {
 </style>
 
 <div style="margin-left: 4em;">
-	 <div>
+<div>
 	
-	    <input type="checkbox" id="E24V-q1" class="toggle visually-hidden">
-	    Lors du décollage, une tempo va permettre de contrôler l'aile sur l'axe de :<br>
-	    
-	    <div class="quizz-answer quizz-answer-ok">Tangage</div>
-	    <div class="quizz-answer quizz-answer-ko">Roulis</div>
-	    <div class="quizz-answer quizz-answer-ko">Lacet </div>
-	    <br>
-	    <label for="E24V-q1">Voir la réponse</label>
-	</div>
-	<br>
-	<br>
-	<div>
-	   <input type="checkbox" id="E24V-q2" class="toggle visually-hidden">
-	   Pour tourner, en baissant une seule commande je vais déclencher un mouvement sur les axes de (2 bonnes réponses) :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ko">Tangage</div>
-		<div class="quizz-answer quizz-answer-ok">Roulis</div>
-		<div class="quizz-answer quizz-answer-ok">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q2">Voir les réponses</label>
-	 </div>
-	<br>
-	<br>
-	 <div>
-	    <input type="checkbox" id="E24V-q3" class="toggle visually-hidden">
-	   Une ressource et une abattée sont des mouvements sur l'axe de :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ok">Tangage</div>
-		<div class="quizz-answer quizz-answer-ko">Roulis</div>
-		<div class="quizz-answer quizz-answer-ko">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q3">Voir la réponse</label>
-	    
-	 </div>
-	<br>
-	<br>
-	<div>
-	   <input type="checkbox" id="E24V-q8" class="toggle visually-hidden">
-	   Lors du gonflage, quand mon aile va s'orienter face au vent par effet girouette, elle tourne sur l'axe de :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ko">Tangage</div>
-		<div class="quizz-answer quizz-answer-ko">Roulis</div>
-		<div class="quizz-answer quizz-answer-ok">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q8">Voir la réponse</label>
-	</div>
-	<br>
-	<br>
-	<div>
-	   <input type="checkbox" id="E24V-q9" class="toggle visually-hidden">
-	   Lors du gonflage, quand je me décale de côté, c'est pour contrôler le mouvement de :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ko">Tangage</div>
-		<div class="quizz-answer quizz-answer-ok">Roulis</div>
-		<div class="quizz-answer quizz-answer-ko">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q9">Voir la réponse</label>
-	</div>
+<input type="checkbox" id="E24V-q1" class="toggle visually-hidden">
+Lors du décollage, une tempo va permettre de contrôler l'aile sur l'axe de :<br>
+<div class="quizz-answer quizz-answer-ok">Tangage</div>
+<div class="quizz-answer quizz-answer-ko">Roulis</div>
+<div class="quizz-answer quizz-answer-ko">Lacet </div>
+<br>
+<label for="E24V-q1">Voir la réponse</label>
+</div>
+<br>
+<br>
+
+
+<div>
+<input type="checkbox" id="E24V-q2" class="toggle visually-hidden">
+Pour tourner, en baissant une seule commande je vais déclencher un mouvement sur les axes de (2 bonnes réponses) :<br>
+<div class="quizz-answer quizz-answer-ko">Tangage</div>
+<div class="quizz-answer quizz-answer-ok">Roulis</div>
+<div class="quizz-answer quizz-answer-ok">Lacet </div>
 <br><br>
-	<div>
-	   <input type="checkbox" id="E24V-q4" class="toggle visually-hidden">
-	   Une clef sur une suspente avant ("les A") va créer un mouvement sur les axes de (2 bonnes réponses) :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ko">Tangage</div>
-		<div class="quizz-answer quizz-answer-ok">Roulis</div>
-		<div class="quizz-answer quizz-answer-ok">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q4">Voir les réponses</label>
-	</div>
-	<br>
-	<br>
-	<div>
-	   <input type="checkbox" id="E24V-q5" class="toggle visually-hidden">
-	   Pour tourner, en baissant une seule commande je vais déclencher un mouvement sur les axes de (2 bonnes réponses) :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ko">Tangage</div>
-		<div class="quizz-answer quizz-answer-ok">Roulis</div>
-		<div class="quizz-answer quizz-answer-ok">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q5">Voir les réponses</label>
+<label for="E24V-q2">Voir les réponses</label>
+</div>
+<br>
+<br>
+
+
+
+<div>
+<input type="checkbox" id="E24V-q3" class="toggle visually-hidden">
+Une ressource et une abattée sont des mouvements sur l'axe de :<br>
+<div class="quizz-answer quizz-answer-ok">Tangage</div>
+<div class="quizz-answer quizz-answer-ko">Roulis</div>
+<div class="quizz-answer quizz-answer-ko">Lacet </div>
+<br><br>
+<label for="E24V-q3">Voir la réponse</label>
+    
+</div>
+<br>
+<br>
+
+
+<div>
+<input type="checkbox" id="E24V-q8" class="toggle visually-hidden">
+Lors du gonflage, quand mon aile va s'orienter face au vent par effet girouette, elle tourne sur l'axe de :<br>
+<div class="quizz-answer quizz-answer-ko">Tangage</div>
+<div class="quizz-answer quizz-answer-ko">Roulis</div>
+<div class="quizz-answer quizz-answer-ok">Lacet </div>
+<br><br>
+<label for="E24V-q8">Voir la réponse</label>
+</div>
+<br>
+<br>
+
+
+<div>
+<input type="checkbox" id="E24V-q9" class="toggle visually-hidden">
+Lors du gonflage, quand je me décale de côté, c'est pour contrôler le mouvement de :<br>
+<div class="quizz-answer quizz-answer-ko">Tangage</div>
+<div class="quizz-answer quizz-answer-ok">Roulis</div>
+<div class="quizz-answer quizz-answer-ko">Lacet </div>
+<br><br>
+<label for="E24V-q9">Voir la réponse</label>
+</div>
+<br><br>
+<div>
+<input type="checkbox" id="E24V-q4" class="toggle visually-hidden">
+Une clef sur une suspente avant ("les A") va créer un mouvement sur les axes de (2 bonnes réponses) :<br>
+<div class="quizz-answer quizz-answer-ko">Tangage</div>
+<div class="quizz-answer quizz-answer-ok">Roulis</div>
+<div class="quizz-answer quizz-answer-ok">Lacet </div>
+<br><br>
+<label for="E24V-q4">Voir les réponses</label>
+</div>
+<br>
+<br>
+
+<div>
+<input type="checkbox" id="E24V-q5" class="toggle visually-hidden">
+Pour tourner, en baissant une seule commande je vais déclencher un mouvement sur les axes de (2 bonnes réponses) :<br>
+<div class="quizz-answer quizz-answer-ko">Tangage</div>
+<div class="quizz-answer quizz-answer-ok">Roulis</div>
+<div class="quizz-answer quizz-answer-ok">Lacet </div>
+<br><br>
+<label for="E24V-q5">Voir les réponses</label>
 	
-	</div>
-	<br>
-	<br>
-	<div>
-	
-	   <input type="checkbox" id="E24V-q6" class="toggle visually-hidden">
-	   Si mon aile me dépasse et ferme, c'est parce que je n'ai pas contrôlé son :<br>
-	   
-	   <div class="quizz-answer quizz-answer-ok">Tangage</div>
-		<div class="quizz-answer quizz-answer-ko">Roulis</div>
-		<div class="quizz-answer quizz-answer-ko">Lacet </div>
-	    <br><br>
-	    <label for="E24V-q6">Voir la réponse</label>
-	</div>
+</div>
+<br>
+<br>
+
+<div>
+<input type="checkbox" id="E24V-q6" class="toggle visually-hidden">
+Si mon aile me dépasse et ferme, c'est parce que je n'ai pas contrôlé son :<br>
+<div class="quizz-answer quizz-answer-ok">Tangage</div>
+<div class="quizz-answer quizz-answer-ko">Roulis</div>
+<div class="quizz-answer quizz-answer-ko">Lacet </div>
+<br><br>
+<label for="E24V-q6">Voir la réponse</label>
+</div>
 </div>
 
 # ❌ Corde
