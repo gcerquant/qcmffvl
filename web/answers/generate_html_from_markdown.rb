@@ -80,6 +80,13 @@ Find.find(__dir__) do |a_file|
 
 	current_question_number =  File.basename(a_folder) # .split(File::SEPARATOR).last
 
+
+	if current_question_number == "E24V"
+		puts "skipping E24V, MANUAL generation only"
+
+		next
+	end
+
 	# Allow to generate only one question
 	if ! only_this_question_ID.nil?
 		if only_this_question_ID != current_question_number
