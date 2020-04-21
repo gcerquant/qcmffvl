@@ -59,6 +59,13 @@ def generate_html_from_markdown(markdown_input_file) # html_output_file
 end
 
 
+only_this_question_ID = ARGV[0]
+
+if ! only_this_question_ID.nil?
+	puts "Only generating question #{only_this_question_ID}"
+end
+
+
 
 
 all_answers = Array.new;
@@ -73,6 +80,12 @@ Find.find(__dir__) do |a_file|
 
 	current_question_number =  File.basename(a_folder) # .split(File::SEPARATOR).last
 
+	# Allow to generate only one question
+	if ! only_this_question_ID.nil?
+		if only_this_question_ID != current_question_number
+			next
+		end
+	end
 
 	if ! current_question_number.match? /^[AELNSU][0-9]+V$/
 		puts "skipping #{current_question_number} (invalid format for question ID)" unless ["answers", "_template", "_template_link", "BI", "BP", "BPC" ].include?(current_question_number)
