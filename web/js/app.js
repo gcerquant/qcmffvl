@@ -13,7 +13,9 @@ angular.module('qcmffvl', [
   'qcmffvl.filters',
   'qcmffvl.services',
   'qcmffvl.directives',
-  'qcmffvl.controllers'
+  'qcmffvl.controllers',
+    'qcmffvlMainCtrl',
+    'qcmffvlQCMCtrl'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/load/:qcmid', {templateUrl: 'qcm.html', controller: 'LoadCtrl'});
