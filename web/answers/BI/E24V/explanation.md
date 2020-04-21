@@ -216,9 +216,9 @@ Si mon aile me dépasse et ferme, c'est parce que je n'ai pas contrôlé son :<b
 </div>
 </div>
 
-# ❌ Corde
+# Corde
 
-La corde n'est pas un axe de rotation.  
+❌ La corde n'est pas un axe de rotation.  
 
 La corde est la droite entre le bord d'attaque et le bord de fuite.
 
