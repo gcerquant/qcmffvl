@@ -14,9 +14,9 @@ pas celle où il va.
 
 <link href="https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Schoolbell&display=swap" rel="stylesheet">
 <div class="mnemo">
-	<div class="stabilo handwriting" style="text-align: center; font-size: x-large;">du <b>vent d'est</b> signifie du <b>vent qui vient de l'est</b>
-	</div>
-	<div class="handwriting" style="font-size: large;"><b>du vent <i>du</i> nord</b> ne peut pas vouloir dire : <strike>du vent qui va vers le nord</strike></div>
+<div class="stabilo handwriting" style="text-align: center; font-size: x-large;">du <b>vent d'est</b> signifie du <b>vent qui vient de l'est</b>
+</div>
+<div class="handwriting" style="font-size: large;"><b>du vent <i>du</i> nord</b> ne peut pas vouloir dire : <strike>du vent qui va vers le nord</strike></div>
 </div>
 
 
