@@ -8,39 +8,23 @@ angular.module('qcmffvlQuestionIdCtrl', []).controller('QuestionIdCtrl', functio
 
 
 
-//     $storage.conf.nbquestions = 10000;
-
-
-        // $scope.main.sport.options.indexOf($scope.$storage.conf.sport);
-        // opt[1] = $scope.main.level.options.indexOf($scope.$storage.conf.level);
     $scope.main.nbquestions = 10000;
-    // $scope.main.category.check = "Toutes les catégories";
-        // opt[3] = $scope.main.category.options.indexOf($scope.$storage.conf.category);
-
 
     $scope.searchMode = true;
     $scope.searchQuestionId = $routeParams.searchquestionid;
 
     $scope.$parent.hideNavbarButtons = false;
 
-    // if (!$scope.$parent.qcm) {
+    if (!$scope.$parent.qcm) {
         $scope.$parent.loadJSON();
-    // }
+    }
 
-                    $scope.main.checkAnswers = false;
-                $scope.collapseNav();
-                $scope.generateQCM();
-                $scope.deleteStoredAnswers();
-
-
-    // $scope.main.nbquestions = 10000;
+    $scope.main.checkAnswers = false;
+    $scope.collapseNav();
+    $scope.generateQCM();
+    $scope.deleteStoredAnswers();
 
 
-    // $scope.main.category.checked = "Toutes les catégories";
-    // $scope.main.displayLimit = 10000;
-
-    // $scope.category.checked = "Toutes les catégories";
-    // $scope.displayLimit = 10000;
 
 
     $scope.categorySelected = function () {
