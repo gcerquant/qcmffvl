@@ -1,31 +1,35 @@
 angular.module('qcmffvlQuestionIdCtrl', []).controller('QuestionIdCtrl', function($scope, $routeParams, $filter, $location, $timeout, dialogs, API, filterFilter) {
     $scope.questions = [];
 
-    // $scope.searchQuestionId = "A78V";
-
-    $scope.main.category.checked = "Toutes les catégories";
-    $scope.main.displayLimit = 10000;
-
-
-
-    $scope.main.nbquestions = 10000;
 
     $scope.searchMode = true;
     $scope.searchQuestionId = $routeParams.searchquestionid;
 
+    // $scope.searchQuestionId = "A78V";
+
+
+    $scope.main.category.checked = "Toutes les catégories";
+    $scope.main.displayLimit = 10000;
+    $scope.$storage.conf.nbquestions = 10000;
+
+
     $scope.$parent.hideNavbarButtons = false;
 
-    if (!$scope.$parent.qcm) {
+    // if (!$scope.$parent.qcm) {
         $scope.$parent.loadJSON();
-    }
+    // }
 
     $scope.main.checkAnswers = false;
     $scope.collapseNav();
     $scope.generateQCM();
     $scope.deleteStoredAnswers();
 
+    $scope.main.displayLimit = 10000;
+    $scope.main.nbquestions = "Toutes les";
 
 
+    console.log("questions");
+    console.log($scope.questions);
 
     $scope.categorySelected = function () {
         return ($scope.$storage.conf.category.indexOf("Toutes") == -1);

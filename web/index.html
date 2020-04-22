@@ -244,7 +244,7 @@
                           </div>
                           <div class="panel-heading" ng-click="helpQuestionToggle(q)">
                               <div class="row question ">
-                                  <span class="col-lg-11 col-xs-11"><span ng-if="q.code!=searchQuestionId">{{($index+1)}}. </span>{{q.question}}</span>
+                                  <span class="col-lg-11 col-xs-11"><span ng-if="searchMode">{{q.code}} — </span> <span ng-if="q.code!=searchQuestionId">{{($index+1)}}. </span>{{q.question}}</span>
                                   <span class="col-lg-1 col-xs-1 pull-right points" ng-show="main.checkAnswers && !main.exam.mode"> {{getPoints(q)}}</span>
                               </div>
                           </div>
@@ -288,7 +288,7 @@
                               <div class="explanation" ng-show='questionHasExplanation(q) && ((!! showThisExplanation) == (!! successQuestion(q)))'>
                                 <span ng-click="showThisExplanation = ! showThisExplanation;" class="btn btn-default">🔼 Masquer </span>
 <!--                                  <span style="text-align: right;"> -->
-                                    <a style="float: right;" ng-if="searchMode==false" href="#/question/{{q.code}}">
+                                    <a style="float: right;" href="#/question/{{q.code}}">
                                       <button style="color: #333;" class="btn btn-sm btn-default navbar-btn btn-shareqcm" ng-click="openQuestionWithId(q. code)"><span class="glyphicon glyphicon-share"></span> Question {{q.code}}</button>
                                     </a>
 <!--                                  </span> -->

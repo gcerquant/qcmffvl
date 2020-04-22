@@ -210,18 +210,37 @@ return ["A10V", "A11V", "A21V", "A22V", "A3V", "A42V", "A58V", "A78V", "A80V", "
 
     $scope.optionsToArray = function() {
         var opt = [];
-        opt[0] = $scope.main.sport.options.indexOf($scope.$storage.conf.sport);
-        opt[1] = $scope.main.level.options.indexOf($scope.$storage.conf.level);
-        opt[2] = $scope.main.nbquestions.options.indexOf($scope.$storage.conf.nbquestions);
-        opt[3] = $scope.main.category.options.indexOf($scope.$storage.conf.category);
+
+
+        if ($scope.searchMode) {
+            opt[0] = $scope.main.sport.options.indexOf($scope.$storage.conf.sport);
+            opt[1] = $scope.main.level.options.indexOf($scope.$storage.conf.level);
+            opt[2] = 10000; //$scope.main.nbquestions.options.indexOf($scope.$storage.conf.nbquestions);
+            opt[3] = 0; //$scope.main.category.options.indexOf($scope.$storage.conf.category);
+
+        } else {
+            opt[0] = $scope.main.sport.options.indexOf($scope.$storage.conf.sport);
+            opt[1] = $scope.main.level.options.indexOf($scope.$storage.conf.level);
+            opt[2] = $scope.main.nbquestions.options.indexOf($scope.$storage.conf.nbquestions);
+            opt[3] = $scope.main.category.options.indexOf($scope.$storage.conf.category);            
+        }
+
         return opt;
     }
 
     $scope.arrayToOptions = function(opt) {
-        $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
-        $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
-        $scope.$storage.conf.nbquestions = $scope.main.nbquestions.options[opt[2]];
-        $scope.$storage.conf.category = $scope.main.category.options[opt[3]];
+
+        // if ($scope.searchMode) {
+        //     $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
+        //     $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
+        //     $scope.$storage.conf.nbquestions = 10000; // $scope.main.nbquestions.options[opt[2]];
+        //     $scope.$storage.conf.category = $scope.main.category.options[opt[3]];
+        // } else {
+            $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
+            $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
+            $scope.$storage.conf.nbquestions = $scope.main.nbquestions.options[opt[2]];
+            $scope.$storage.conf.category = $scope.main.category.options[opt[3]];            
+        // }
     }
 
     $scope.updateQCMID = function() {
