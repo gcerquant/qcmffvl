@@ -48,6 +48,7 @@
     <script src="js/controllers.js"></script>
       <script src="js/controllers/mainCtrl.js"></script>
       <script src="js/controllers/qcmCtrl.js"></script>
+      <script src="js/controllers/questionIdCtrl.js"></script>
 
     <script src="js/filters.js"></script>
     <script src="js/directives.js"></script>
@@ -107,16 +108,18 @@
                   </li>
                 </ul>
               </li>
-              <li>
-                <li class="dropdown" is-open="isOpen.nbquestions">
-                  <a class="dropdown-toggle" data-toggle="dropdown">{{$storage.conf.nbquestions}} questions <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu" ng-click="isOpen.nbquestions = false">
-                    <li ng-repeat="nbquestions in main.nbquestions.options">
-                      <a ng-click="$storage.conf.nbquestions = nbquestions">{{nbquestions}} questions</a>
-                    </li>
-                  </ul>
+
+                <li>
+                  <li class="dropdown" is-open="isOpen.nbquestions">
+                    <a class="dropdown-toggle" data-toggle="dropdown">{{$storage.conf.nbquestions}} questions <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" ng-click="isOpen.nbquestions = false">
+                      <li ng-repeat="nbquestions in main.nbquestions.options">
+                        <a ng-click="$storage.conf.nbquestions = nbquestions">{{nbquestions}} questions</a>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
-              </li>
+
               <li>
                 <li class="dropdown" is-open="isOpen.category">
                   <a class="dropdown-toggle" data-toggle="dropdown">{{$storage.conf.category}} <span class="caret"></span></a>
@@ -232,7 +235,8 @@
                   </div>
 
                   <div ng-repeat="q in qcm | limitTo:main.displayLimit | filter:main.search | categoryFilter:$storage.conf.category | limitTo:main.limit" remove-loader-when-ready>
-                      <div class="panel panel-default grid-item" ng-class="{'panel-success':successQuestion(q), 'panel-danger':failedQuestion(q), 'panel-warning': warningQuestion(q), 'panel-info':isHelpQuestion(q)}">
+
+                      <div ng-if="(! searchMode) || (searchMode && q.code==searchQuestionId)" class="panel panel-default grid-item" ng-class="{'panel-success':successQuestion(q), 'panel-danger':failedQuestion(q), 'panel-warning': warningQuestion(q), 'panel-info':isHelpQuestion(q)}">
                           <div class="panel-heading" ng-click="helpQuestionToggle(q)" ng-show="isHelpQuestion(q) && !main.exam.mode">
                               <div class="row question ">
                                   <span class="col-lg-12 col-xs-12 help-header"><span class="help-msg">Signaler un problème avec cette question</span><span class="glyphicon glyphicon-arrow-right help-arrow"></span><a><span class="glyphicon glyphicon-envelope help-mailto" ng-click="mailtoclick(q, $index+1)"></a></span>
@@ -240,7 +244,7 @@
                           </div>
                           <div class="panel-heading" ng-click="helpQuestionToggle(q)">
                               <div class="row question ">
-                                  <span class="col-lg-11 col-xs-11">{{($index+1)}}. {{q.question}}</span>
+                                  <span class="col-lg-11 col-xs-11"><span ng-if="q.code!=searchQuestionId">{{($index+1)}}. </span>{{q.question}}</span>
                                   <span class="col-lg-1 col-xs-1 pull-right points" ng-show="main.checkAnswers && !main.exam.mode"> {{getPoints(q)}}</span>
                               </div>
                           </div>

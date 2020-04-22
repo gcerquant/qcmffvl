@@ -15,12 +15,14 @@ angular.module('qcmffvl', [
   'qcmffvl.directives',
   'qcmffvl.controllers',
     'qcmffvlMainCtrl',
-    'qcmffvlQCMCtrl'
+    'qcmffvlQCMCtrl',
+    'qcmffvlQuestionIdCtrl'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/load/:qcmid', {templateUrl: 'qcm.html', controller: 'LoadCtrl'});
   $routeProvider.when('/load/:qcmid/:typeExamNum', {templateUrl: 'qcm.html', controller: 'LoadCtrl'});
   $routeProvider.when('/qcm', {templateUrl: 'qcm.html', controller: 'QCMCtrl'});
+  $routeProvider.when('/question/:searchquestionid', {templateUrl: 'qcm.html', controller: 'QuestionIdCtrl'});
   $routeProvider.when('/about', {templateUrl: 'about.html', controller: 'AboutCtrl'});
   $routeProvider.when('/selftest', {templateUrl: 'selftest.html', controller: 'SelfTestCtrl'});
   $routeProvider.otherwise({redirectTo: '/qcm'});
