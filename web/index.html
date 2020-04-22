@@ -281,23 +281,22 @@
 
                           <div class="panel-body answers explanation" ng-click="answerToggle(q)" ng-show="main.checkAnswers && !main.exam.mode">
 
-                              <div class="no-explanation" ng-show="! (questionHasExplanation(q))">Aucune explication rédigée (question {{q.code}})</div>
-
+                              <div class="no-explanation" ng-show="! (questionHasExplanation(q))">Aucune explication rédigée (<a href="#/question/{{q.code}}">question {{q.code}}</a>)</div>
                               <div ng-show='questionHasExplanation(q) && (!! showThisExplanation) == (! successQuestion(q))' ng-click="showThisExplanation = !showThisExplanation;" class="btn btn-default">🔽 Explication</div>
 
 
-
-
-
-
-
                               <div class="explanation" ng-show='questionHasExplanation(q) && ((!! showThisExplanation) == (!! successQuestion(q)))'>
-                                 <span ng-click="showThisExplanation = ! showThisExplanation;" class="btn btn-default">🔼 question {{q.code}} : </span>
+                                <span ng-click="showThisExplanation = ! showThisExplanation;" class="btn btn-default">🔼 Masquer </span>
+<!--                                  <span style="text-align: right;"> -->
+                                    <a style="float: right;" ng-if="searchMode==false" href="#/question/{{q.code}}">
+                                      <button style="color: #333;" class="btn btn-sm btn-default navbar-btn btn-shareqcm" ng-click="openQuestionWithId(q. code)"><span class="glyphicon glyphicon-share"></span> Question {{q.code}}</button>
+                                    </a>
+<!--                                  </span> -->
+                                </span>
 
+                                <ng-include src="'answers/BI/' + q.code + '/explanation.md.html'"></ng-include>
 
-                                  <ng-include src="'answers/BI/' + q.code + '/explanation.md.html'"></ng-include>
-
-                                  </div>
+                              <!-- </div> -->
 
                               </div>
                           </div>
