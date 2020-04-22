@@ -229,18 +229,10 @@ return ["A10V", "A11V", "A21V", "A22V", "A3V", "A42V", "A58V", "A78V", "A80V", "
     }
 
     $scope.arrayToOptions = function(opt) {
-
-        // if ($scope.searchMode) {
-        //     $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
-        //     $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
-        //     $scope.$storage.conf.nbquestions = 10000; // $scope.main.nbquestions.options[opt[2]];
-        //     $scope.$storage.conf.category = $scope.main.category.options[opt[3]];
-        // } else {
-            $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
-            $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
-            $scope.$storage.conf.nbquestions = $scope.main.nbquestions.options[opt[2]];
-            $scope.$storage.conf.category = $scope.main.category.options[opt[3]];            
-        // }
+        $scope.$storage.conf.sport = $scope.main.sport.options[opt[0]];
+        $scope.$storage.conf.level = $scope.main.level.options[opt[1]];
+        $scope.$storage.conf.nbquestions = $scope.main.nbquestions.options[opt[2]];
+        $scope.$storage.conf.category = $scope.main.category.options[opt[3]];            
     }
 
     $scope.updateQCMID = function() {
