@@ -286,17 +286,14 @@
 
 
                               <div class="explanation" ng-show='questionHasExplanation(q) && ((!! showThisExplanation) == (!! successQuestion(q)))'>
-                                <span ng-click="showThisExplanation = ! showThisExplanation;" class="btn btn-default">🔼 Masquer </span>
-<!--                                  <span style="text-align: right;"> -->
-                                    <a style="float: right;" href="#/question/{{q.code}}">
-                                      <button style="color: #333;" class="btn btn-sm btn-default navbar-btn btn-shareqcm" ng-click="openQuestionWithId(q. code)"><span class="glyphicon glyphicon-share"></span> Question {{q.code}}</button>
-                                    </a>
-<!--                                  </span> -->
+                                <span ng-click="showThisExplanation = ! showThisExplanation;" class="btn btn-default hidden-print">🔼 Masquer </span>
+
+                                <a class="print-link-only" style="float: right;" href="#/question/{{q.code}}">
+                                  <button style="color: #333;" class="btn btn-sm btn-default navbar-btn btn-shareqcm hidden-print" ng-click="openQuestionWithId(q. code)"><span class="glyphicon glyphicon-share"></span> Question {{q.code}}</button>
+                                </a>
                                 </span>
 
                                 <ng-include src="'answers/BI/' + q.code + '/explanation.md.html'"></ng-include>
-
-                              <!-- </div> -->
 
                               </div>
                           </div>

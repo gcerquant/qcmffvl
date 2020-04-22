@@ -1,4 +1,20 @@
 @media print {
+
+    a.print-link-only {
+        /*color: red !important;*/
+        content: none !important;
+        
+        text-decoration: none;
+    }
+
+    a.print-link-only::after {
+        content: attr(href);  
+    }
+/*                           a::after{
+    content: " (" attr(href) ") ";
+  }
+*/
+
     .panel {
         width: 340px;
         min-height: 230px;
